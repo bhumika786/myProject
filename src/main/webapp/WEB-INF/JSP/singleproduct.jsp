@@ -18,18 +18,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstr
 </section>
 <section class="container">
 <div class="row">
-<c:forEach items="${products}" var="product">
+ 
 <div class="col-sm-6 col-md-3" style="padding-bottom: 15px">
 <div class="thumbnail">
 <div class="caption">
-<h3>${product.name}</h3>
+<h3>${product.name}</h3>productid
 <p>${product.description}</p>
 <p>$${product.unitPrice}</p>
 <p>Available ${product.unitsInStock} units in stock</p>
 </div>
 </div>
 </div>
-</c:forEach>
+ 
 </div>
 </section>
 </body>
